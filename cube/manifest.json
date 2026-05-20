@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "project": "severin-remote-faces",
+  "firmware_repo": "indila334-lab/xiaozhi-esp32",
+  "asset_repo": "indila334-lab/Mordashka",
+  "limits": {
+    "max_bytes": 256000,
+    "target_bytes": "100-150 KB",
+    "canvas": "240x240",
+    "portrait": "about 200x200",
+    "gif_fps": "6-8",
+    "gif_palette": "32 or 64 colors"
+  },
+  "emotions": {
+    "neutral": {
+      "source": "https://raw.githubusercontent.com/indila334-lab/Mordashka/main/masters/neutral_source.gif",
+      "png": "https://raw.githubusercontent.com/indila334-lab/Mordashka/main/cube/neutral.png",
+      "gif": "https://raw.githubusercontent.com/indila334-lab/Mordashka/main/cube/neutral.gif",
+      "fallback": "local file emoji from xiaozhi-esp32 assets"
+    }
+  }
+}
